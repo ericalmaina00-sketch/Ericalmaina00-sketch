@@ -1,0 +1,47 @@
+Process Documentation
+
+This section outlines the process our group followed to develop the Base Converter application, from planning and role assignment to the tools and methodologies we used.
+
+1.1 Project Overview and Objectives
+
+Our primary goal was to develop a simple, intuitive, and efficient mobile application for converting numbers between different bases. We focused on the most commonly used bases in computing: Binary (Base 2), Octal (Base 8), Decimal (Base 10), and Hexadecimal (Base 16). The project was designed to be a practical exercise in mobile development with Flutter, focusing on clean architecture, user interface design, and state management.
+
+1.2 Team Roles and Responsibilities
+
+To ensure a smooth workflow and clear accountability, we assigned the following roles to our five members:
+Member Name	Role	Responsibilities
+CT100/G/22688/24-	Project Lead & Documentation	- Coordinated the project timeline and tasks. - Ensured clear communication within the team. - Wrote and compiled the final project documentation.
+CT100/G/21350/24-Lead Logic Developer	- Designed and implemented the core ConversionService class. - Wrote the algorithms for base conversions. - Handled numerical data logic, including using BigInt.
+CT100/G/22452/24-	UI/UX Frontend Developer	- Designed the application's layout and user interface. - Implemented the Flutter widgets (TextField, DropdownButton, etc.). - Focused on styling and user experience.
+CT100/G/22010/24-	State & Integration Engineer	- Connected the UI to the conversion logic. - Managed the application's state within the _NumberConverterScreenState class. - Implemented the _performConversion function and error handling.
+CT100/G/15899/22	Quality Assurance & Tester	- Performed thorough testing of the application. - Identified and reported bugs (e.g., input validation errors, UI glitches). - Ensured the final product met our objectives.
+
+1.3 Development Methodology
+
+We adopted a simplified Agile methodology for this project. Our process involved:
+
+    Planning: We started by defining the core features and requirements for the app.
+
+    Design: We created a simple wireframe for the UI to guide the development process.
+
+    Development Sprints: We broke the work into two main sprints.
+
+        Sprint 1: Focused on developing the core conversion logic (ConversionService).
+
+        Sprint 2: Focused on building the Flutter UI and integrating it with the logic.
+
+    Testing & Review: After each sprint, we tested the implemented features and reviewed the code as a team.
+
+    Finalization: We conducted final testing and prepared the documentation.
+
+1.4 Tools and Technologies
+
+    Programming Language: Dart
+
+    Framework: Flutter SDK
+
+    IDE: Visual Studio Code
+
+    Version Control: Git & GitHub for collaboration and source code management.
+
+    Communication: WhatsApp for team coordination and quick updates.

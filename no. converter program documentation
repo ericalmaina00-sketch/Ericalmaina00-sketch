@@ -1,0 +1,54 @@
+Program Documentation
+
+Title:
+
+Number System Converter – Flutter Application
+
+Purpose
+
+The purpose of this program is to allow users to convert numbers between different number systems: Binary (2), Octal (8), Decimal (10), and Hexadecimal (16).
+This is useful for students, programmers, and engineers who frequently work with different bases.
+
+Features
+
+	Converts numbers between bases 2, 8, 10, and 16. 
+	User-friendly interface with input field and dropdown menus. 
+	Error handling for invalid input. 
+	Supports both positive and negative numbers. 
+
+Tools and Technology
+
+	Language: Dart 
+	Framework: Flutter 
+	IDE: Android Studio / VS Code 
+	Target Platform: Android (but works cross-platform) 
+
+File Structure
+
+	main.dart → Entry point of the application. Contains UI, logic calls, and controller code. 
+	ConversionService (class inside main.dart) → Handles the base conversion logic. 
+
+Program Flow
+
+	User enters a number in the input field. 
+	User selects the From Base and To Base using dropdown menus. 
+	User clicks the Convert button. 
+	The controller sends the input to ConversionService. 
+	ConversionService converts the number to the target base. 
+	The result is displayed on screen. 
+
+Example Usage
+
+	Input: 1010, From Base: Binary, To Base: Decimal → Output: 10 
+	Input: FF, From Base: Hexadecimal, To Base: Binary → Output: 11111111 
+
+Limitations
+
+	Currently supports only 4 bases: 2, 8, 10, and 16. 
+	Does not support fractional numbers. 
+
+Future Improvements
+
+	Add support for additional bases (up to 36). 
+	Add fractional number conversion. 
+	Provide copy-to-clipboard and share result features.
